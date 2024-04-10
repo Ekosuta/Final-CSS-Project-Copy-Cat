@@ -1,0 +1,405 @@
+nav {
+    background-color: rgb(31, 31, 31);
+    opacity: 98%;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+nav a {
+    color: rgb(216, 216, 216);
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+nav a i {
+    padding-top: 10px;
+}
+
+nav a:hover {
+    color: white;
+    opacity: 150%;
+}
+
+#first {
+    position: relative;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+#first img {
+    width: 100%;
+}
+
+#first h1 {
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    color: white;
+    transform: translate( -50%, -50%);
+    font-size: 66px;
+}
+
+#first h2 {
+    position: absolute;
+    top: 24%;
+    left: 50%;
+    color: white;
+    transform: translate( -50%, -50%);
+    font-size: 30px;
+}
+
+#first .row {
+    transform: translate( -50%, -50%);
+    position: absolute;
+    top: 31%;
+    left: 49%
+}
+
+#second {
+    position: relative;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+#second img {
+    width: 100%;
+}
+
+#second h1 {
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    color: black;
+    transform: translate( -50%, -50%);
+    font-size: 66px;
+}
+
+#second h2 {
+    position: absolute;
+    top: 24%;
+    left: 50%;
+    color: black;
+    transform: translate( -50%, -50%);
+    font-size: 30px;
+}
+
+#second .row {
+    transform: translate( -50%, -50%);
+    position: absolute;
+    top: 31%;
+    left: 49%
+}
+
+#third {
+    position: relative;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+#third img {
+    width: 100%;
+}
+
+#third h1 {
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    color: black;
+    transform: translate( -50%, -50%);
+    font-size: 66px;
+}
+
+#third h2 {
+    position: absolute;
+    top: 24%;
+    left: 50%;
+    color: black;
+    transform: translate( -50%, -50%);
+    font-size: 30px;
+}
+
+#third .row {
+    transform: translate( -50%, -50%);
+    position: absolute;
+    top: 31%;
+    left: 49%
+}
+
+#button {
+    margin: 9px;
+    border-radius: 30px;
+    padding: 9px 30px;
+}
+
+#fourth {
+    padding: 0;
+}
+
+#fourth .row {
+    margin: 0;
+    width: 100%;
+}
+
+#fourth img {
+    width: 100%;
+    margin-right: 15px; 
+    margin-bottom: 20px;
+}
+
+#col1 h1 {
+    position: absolute;
+    top: 76%;
+    left: 50%;
+    color: white;
+    transform: translate( -50%, -50%);
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+#col1 h2 {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    color: white;
+    transform: translate( -50%, -50%);
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+#col1 button {
+    position: absolute;
+    top: 87%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    text-align: center;
+    border-radius: 30px;
+    padding: 5px 15px;
+    font-size: 20px;
+}
+
+#col2 h1 {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    color: white;
+    transform: translate( -50%, -50%);
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+#col2 h2 {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    color: white;
+    transform: translate( -50%, -50%);
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+#col2 .row {
+    transform: translate( -50%, -50%);
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    top: 87%;
+    left: 86%
+}
+
+#col2 button {
+    border-radius: 30px;
+    padding: 5px 15px;
+    font-size: 20px;
+    margin: 8px;
+}
+
+#col3 h1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    color: black;
+    transform: translate( -50%, -50%);
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+#col3 p {
+    position: absolute;
+    top: 14.3%;
+    left: 50%;
+    color: red;
+    transform: translate( -50%, -50%);
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+#col3 h2 {
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    color: black;
+    transform: translate( -50%, -50%);
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+#col3 .row {
+    transform: translate( -50%, -50%);
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    top: 25%;
+    left: 86%
+}
+
+#col3 button {
+    border-radius: 30px;
+    padding: 5px 15px;
+    font-size: 20px;
+    margin: 8px;
+}
+
+#col4 h1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    color: black;
+    transform: translate( -50%, -50%);
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+#col4 h2 {
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    color: black;
+    transform: translate( -50%, -50%);
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+#col4 .row {
+    transform: translate( -50%, -50%);
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    top: 23%;
+    left: 86%
+}
+
+#col4 button {
+    border-radius: 30px;
+    padding: 5px 15px;
+    font-size: 20px;
+    margin: 8px;
+}
+
+#col5 h1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    color: white;
+    transform: translate( -50%, -50%);
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+#col5 h2 {
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    color: white;
+    transform: translate( -50%, -50%);
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+#col5 h3 {
+    position: absolute;
+    top: 19.5%;
+    left: 50%;
+    color: white;
+    transform: translate( -50%, -50%);
+    font-size: 25px;
+    width: 100%;
+    text-align: center;   
+}
+
+#col5 .row {
+    transform: translate( -50%, -50%);
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    top: 26.5%;
+    left: 82.5%
+}
+
+#col5 button {
+    border-radius: 30px;
+    padding: 5px 15px;
+    font-size: 20px;
+    margin: 8px;
+}
+
+#col6 h1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    color: white;
+    transform: translate( -50%, -50%);
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+#col6 h2 {
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    color: white;
+    transform: translate( -50%, -50%);
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+#col6 h3 {
+    position: absolute;
+    top: 19.5%;
+    left: 50%;
+    color: white;
+    transform: translate( -50%, -50%);
+    font-size: 25px;
+    width: 100%;
+    text-align: center;   
+}
+
+#col6 button {
+    position: absolute;
+    top: 26.5%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    text-align: center;
+    border-radius: 30px;
+    padding: 5px 15px;
+    font-size: 20px;
+}
